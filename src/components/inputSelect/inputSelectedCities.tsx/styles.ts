@@ -19,4 +19,14 @@ export const SelectCSS = styled.select`
   ::after {
     border-color: white;
   }
+  @media screen and (min-device-width: 320px) and (max-device-width: 480px) {
+    width: 30rem;
+  }
+  @media screen and (min-device-width: 481px) and (max-device-width: 800px) {
+    width: 30rem;
+  }
+  @media screen and (min-device-width: 800px) {
+    width: 20rem;
+    height: 35px;
+  }
 `;

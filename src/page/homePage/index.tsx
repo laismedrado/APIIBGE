@@ -8,38 +8,36 @@ import { IBGEstatesSelect } from "../../components/inputSelect/inputSelectIBGEst
 import {
   // ButtonCSS,
   Container,
-  ContainerButton,
+
   ContainerSelect,
   BoxSelect,
   Texto,
   ContainerInterface,
+  ContainerDataInfo,
 } from "./styles";
 
-import {CityInfo} from "../../components/cardCity";
+import { CityInfo } from "../../components/cardCity";
 
 // import { Container } from './styles';
 
 export const Homepage: React.FC = () => {
   return (
     <Container>
-      <ContainerInterface>
-      
-      <ContainerSelect>
-        <BoxSelect>
-          <Texto> ESCOLHA O ESTADO:</Texto>
-          <IBGEstatesSelect />
-        </BoxSelect>
-        <BoxSelect>
-          <Texto> ESCOLHA A CIDADE: </Texto>
-          <CitiesSelect />
-        </BoxSelect>
-      </ContainerSelect>
+    <ContainerInterface>
+        <ContainerSelect>
+          <BoxSelect>
+            <Texto> ESCOLHA O ESTADO:</Texto>
+            <IBGEstatesSelect />
+          </BoxSelect>
+          <BoxSelect>
+            <Texto> ESCOLHA A CIDADE: </Texto>
+            <CitiesSelect />
+          </BoxSelect>
+        </ContainerSelect>
+        <ContainerDataInfo>
           <CityInfo />
-        <ContainerButton>
-          {/* <ButtonCSS variant="outlined">limpar</ButtonCSS>
-          <ButtonCSS variant="outlined">pesquisar</ButtonCSS> */}
-        </ContainerButton>
-        </ContainerInterface>
+        </ContainerDataInfo>
+      </ContainerInterface>
     </Container>
   );
 };

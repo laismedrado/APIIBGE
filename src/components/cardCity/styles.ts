@@ -1,33 +1,74 @@
-import styled from 'styled-components';
-import { Tab } from '@headlessui/react';
+import TableContainer from "@mui/material/TableContainer";
+import Table from "@mui/material/Table";
+import styled from "styled-components";
+import { styled as style } from "@mui/material/styles";
+import TableRow from "@mui/material/TableRow";
 
 export const ContainerData = styled.div`
+  padding: 2rem;
+  display: flex;
+  gap: 2.6rem;
+  width: 78rem;
+  justify-content: center;
+  margin: 1rem;
+  margin-top: 4rem;
+
+  @media screen and (min-device-width: 320px) and (max-device-width: 480px) {
+    justify-content: center;
+    width: 25rem;
+    align-items: center;
+    margin-top: 1rem;
+  }
+
+  @media screen and (min-device-width: 481px) and (max-device-width: 800px) {
+    justify-content: center;
+    width: 30rem;
+    align-items: center;
+    margin-top: 1rem;
+  }
+
+  @media screen and (max-device-width: 320px) and (max-device-width: 480px) {
+    justify-content: center;
+    width: 25rem;
+    align-items: center;
+    margin-top: 4rem;
+  }
+
+  @media screen and (min-device-width: 800px) {
     padding: 2rem;
     display: flex;
-    align-items: center;
+    gap: 2.6rem;
+    width: 78rem;
     justify-content: center;
-    margin:1rem;
+    margin: 1rem;
     margin-top: 4rem;
-`;
-export const Tabs = styled.div`
-  overflow: hidden;
-  background: #fff;
-  font-family: Open Sans;
-  height: 3em;
-`;
-export const Tablete = styled(Tab)`
-  border: none;
-  outline: none;
-  cursor: pointer;
-  width: 40%;
-  position: relative;
-  color: green;
-  margin-right: 0.1em;
-  font-size: 1em;
-  transition: background-color 0.5s ease-in-out;
-  :hover {
-    background-color: white;
   }
 `;
 
+export const ContainerTable = styled(TableContainer)`
+  width: 35rem;
+  background-color: white;
 
+  @media screen and (min-device-width: 320px) and (max-device-width: 480px) {
+    width: 15rem;
+    margin-top: 1.5rem;
+  }
+  @media screen and (min-device-width: 481px) and (max-device-width: 880px) {
+    width: 10rem;
+    margin-top: 1.5rem;
+  }
+
+  @media screen and (min-device-width: 800px) {
+    width: 35rem;
+    background-color: white;
+  }
+`;
+export const TableBox = style(Table)`
+width: 35rem;
+min-width:10rem;
+height:1rem;
+`;
+export const CelBox = style(TableRow)`
+width: 160rem;
+height:1rem;
+`;
