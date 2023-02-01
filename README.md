@@ -1,46 +1,46 @@
-# Getting Started with Create React App
+# <p align = "center"> ✨ SPA - API IBGE ✨ </p>  
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+</br>
+</br>
 
-## Available Scripts
+    🚨 Sobre
+    
+</br>
+</br>
 
-In the project directory, you can run:
+Projeto frontend de criação de  um SPA com React + Redux utilizando API do IBGE, onde o usuário seleciona o estado e cidade de interesse e tem acesso a  informações da localização geográfica. 
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+**- status concluído** ✅
+</BR>
+</BR>
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
 
-### `npm test`
+     🖋 Funcionalidades
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+</BR>
 
-### `npm run build`
+-  **selecionar estado :**  select para selecionar um estado utilizando  a api: https://servicodados.ibge.gov.br/api/v1/localidades/etasdos; 
+</BR>
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+-  **selecionar cidade:** select para selecionar um município utilizando a api: https://servicodados.ibge.gov.br/api/v1/localidades/estados/{UF}/municipios. Onde só é mostrado os municípios do estado que foi selecionado, tornando o select de municípios dependente do select de estados;
+</BR>
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+-  **tabela de informações:** ao selecionar um município é mostrado na tela as informações de microrregião, mesorregião, UF e região do municípios utilizando esta api: https://servicodados.ibge.gov.br/api/v1/localidades/municipios/{municipio}/distritos; 
+</BR>
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- **responsividade:** desenvolvimento adaptado para telas de  celulares/ tables e computadores utilizando o media query;
+</BR>
+</BR>  
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+      🔧  Ferramentas:
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+- React
+- Typescript
+- Redux Toolkit
+- Material UI
+- Styled - component
+- Axios;
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
