@@ -1,13 +1,17 @@
 # <p align = "center"> ✨ SPA - API IBGE ✨ </p>  
 
 </br>
-</br>
+
+
+
     🚨 Sobre 
 </br>
+
+Projeto frontend de aplicação de conhecimentos em novas tecnologias que consiste na criação de  uma SPA com React + Redux utilizando API do IBGE, onde o usuário seleciona o estado e cidade de interesse e tem acesso a  informações da localização geográfica. 
+<p align = "center">
+<img  width = "550" heigth= "400" src ="src/assets/ibge api .gif">
+<p>
 </br>
-
-Projeto frontend de criação de  um SPA com React + Redux utilizando API do IBGE, onde o usuário seleciona o estado e cidade de interesse e tem acesso a  informações da localização geográfica. 
-
 
 **- status concluído** ✅
 </BR>
@@ -27,7 +31,7 @@ Projeto frontend de criação de  um SPA com React + Redux utilizando API do IBG
 -  **tabela de informações:** ao selecionar um município é mostrado na tela as informações de microrregião, mesorregião, UF e região do municípios utilizando esta api: https://servicodados.ibge.gov.br/api/v1/localidades/municipios/{municipio}/distritos; 
 </BR>
 
-- **responsividade:** desenvolvimento adaptado para telas de  celulares/ tables e computadores utilizando o media query;
+- **responsividade:** desenvolvimento adaptado para telas de  celulares/ ttables e computadores utilizando o media query;
 </BR>
 </BR>  
 
