@@ -8,14 +8,14 @@ export const ContainerData = styled.div`
   padding: 2rem;
   display: flex;
   gap: 2.6rem;
-  width: 78rem;
+  width: 58rem;
   justify-content: center;
   margin: 1rem;
-  margin-top: 4rem;
+  margin-top: 2rem;
 
   @media screen and (min-device-width: 320px) and (max-device-width: 480px) {
     justify-content: center;
-    width: 25rem;
+    width: 100%;
     align-items: center;
     margin-top: 1rem;
   }
@@ -29,7 +29,7 @@ export const ContainerData = styled.div`
 
   @media screen and (max-device-width: 320px) and (max-device-width: 480px) {
     justify-content: center;
-    width: 25rem;
+    width: 30rem;
     align-items: center;
     margin-top: 4rem;
   }
@@ -50,7 +50,7 @@ export const ContainerTable = styled(TableContainer)`
   background-color: white;
 
   @media screen and (min-device-width: 320px) and (max-device-width: 480px) {
-    width: 15rem;
+    width: 105rem;
     margin-top: 1.5rem;
   }
   @media screen and (min-device-width: 481px) and (max-device-width: 880px) {
@@ -64,7 +64,7 @@ export const ContainerTable = styled(TableContainer)`
   }
 `;
 export const TableBox = style(Table)`
-width: 35rem;
+width: 45rem;
 min-width:10rem;
 height:1rem;
 `;

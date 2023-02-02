@@ -33,7 +33,7 @@ export const IBGEstatesSelect = () => {
       id="estados"
       onChange={(event: any) => handleSelectedEstado(event)}
     >
-      <option value="selected">Escolha o estado</option>
+      <option value="selected">selecione</option>
 
       {estados.length !== 0
         ? estados.map((state: any) => {

@@ -1,6 +1,7 @@
 import React from "react";
 import { CitiesSelect } from "../../components/inputSelect/inputSelectedCities.tsx";
 import { IBGEstatesSelect } from "../../components/inputSelect/inputSelectIBGEstates.";
+
 import {
   Container,
   ContainerSelect,
@@ -15,7 +16,7 @@ import { CityInfo } from "../../components/cardCity";
 export const Homepage: React.FC = () => {
   return (
     <Container>
-    <ContainerInterface>
+      <ContainerInterface>
         <ContainerSelect>
           <BoxSelect>
             <Texto> ESCOLHA O ESTADO:</Texto>

@@ -38,19 +38,14 @@ export const ContainerInterface = styled.div`
   padding: 2rem;
   margin-top: 2.5rem;
   @media screen and (min-device-width: 320px) and (max-device-width: 480px) {
-    min-height: 70.5vh;
-    border-radius: 0.01rem;
-  }
-
-  @media screen and (min-device-width: 320px) and (max-device-width: 375px) {
-    height: 100%;
+  min-height: 70.5vh;
+border-radius: 0.01rem;
   }
 
   @media screen and (min-device-width: 481px) and (max-device-width: 800px) {
     min-height: 70.5vh;
     border-radius: 0.01rem;
   }
-
   @media screen and (min-device-width: 800px) {
     display: flex;
     flex-direction: column;
@@ -77,16 +72,15 @@ export const ContainerSelect = styled.div`
     justify-content: center;
     align-self: center;
     margin-left: -1rem;
-    
-    
+
     margin-top: 2rem;
-    gap: 2rem;
+    gap: 3rem;
     height: 100%;
   }
   @media screen and (min-device-width: 481px) and (max-device-width: 800px) {
     display: flex;
     flex-direction: column;
-    margin-top: 2rem;
+    margin-top: 1.5rem;
     align-items: center;
     gap: 2rem;
     height: 100%;
@@ -97,6 +91,7 @@ export const ContainerSelect = styled.div`
     justify-content: space-around;
     border-radius: 1rem;
     gap: 5rem;
+    margin-top: -2rem;
     width: 100%;
     background-color: #e6e6df;
     height: 9rem;
@@ -110,7 +105,7 @@ export const BoxSelect = styled.div`
   margin: -0.5rem;
   justify-items: center;
   @media screen and (min-device-width: 320px) and (max-device-width: 480px) {
-    margin-top: 2rem;
+    margin-top: .5rem;
     width: 100%;
     gap: 3rem;
   }
@@ -151,5 +146,15 @@ export const ContainerDataInfo = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-top: -3rem;
   justify-items: center;
+  @media screen and (min-device-width: 320px) and (max-device-width: 480px) {
+    margin-top: 8rem;
+  }
+  @media screen and (min-device-width: 481px) and (max-device-width: 800px) {
+    margin-top: 5rem;
+  }
+  @media screen and (min-device-width: 800px) {
+     margin-top: -4rem;
+  }
 `;

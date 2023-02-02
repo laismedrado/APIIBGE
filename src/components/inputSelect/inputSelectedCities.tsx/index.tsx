@@ -47,7 +47,7 @@ export const CitiesSelect = () => {
       id="cidades"
       onChange={(item: any) => handleSelectedCity(item as CityTypes)}
     >
-      <option value="selected">Escolha a cidade</option>
+      <option value="selected">selecione</option>
 
       {filteredCities.length !== 0
         ? filteredCities.map((cidade: CityTypes) => (

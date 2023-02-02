@@ -11,7 +11,7 @@ export const StyledToolbar = styled(Toolbar)`
   }
 
   @media screen and (min-device-width: 320px) and (max-device-width: 480px) {
-    height: 15rem;
+    height: 12rem;
     display: flex;
     flex-direction: column;
     background: gray;
@@ -36,7 +36,7 @@ export const HeaderText = styled.text`
   margin-right: 2rem;
 
   @media screen and (min-device-width: 320px) and (max-device-width: 480px) {
-    font-size: 1rem;
+    font-size: 1.5rem;
   }
   @media screen and (min-device-width: 481px) and (max-device-width: 800px) {
     font-size: 1.25rem;
@@ -77,7 +77,7 @@ export const ImagemLogo = styled.img`
   @media screen and (min-device-width: 320px) and (max-device-width: 480px) {
     height: 12.5rem;
     width: 22.5rem;
-    margin-top: 3rem;
+    margin-top: 1rem;
   }
   @media screen and (min-device-width: 800px) {
     height: 5rem;

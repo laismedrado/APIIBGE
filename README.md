@@ -2,9 +2,7 @@
 
 </br>
 </br>
-
-    🚨 Sobre
-    
+    🚨 Sobre 
 </br>
 </br>
 
@@ -16,7 +14,7 @@ Projeto frontend de criação de  um SPA com React + Redux utilizando API do IBG
 </BR>
 
 
-     🖋 Funcionalidades
+      🖋 Funcionalidades
 
 </BR>
 

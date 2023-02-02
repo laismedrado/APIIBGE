@@ -39,7 +39,9 @@ export const CityInfo = () => {
 
   return (
     <ContainerData>
-      <Box sx={{ width: "100%" }}>
+      {
+                status === "fulfilled" ? (
+      <Box sx={{ width: "95%" }} position="absolute">
         <ContainerTable>
           <Table aria-label="simple table">
             <TableHead
@@ -83,6 +85,8 @@ export const CityInfo = () => {
           </Table>
         </ContainerTable>
       </Box>
+         ) : <></>
+        }
     </ContainerData>
   );
 };
